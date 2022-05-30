@@ -1,0 +1,180 @@
+@font-face {
+    font-family: MyHelvetica;
+    src: local("Helvetica Neue Bold"),
+    local("HelveticaNeue-Bold"),
+    url(MgOpenModernaBold.ttf);
+    font-weight: bold;
+  }
+
+html {
+    background-color: #dbfeff;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003bdf;
+}
+
+body {
+    background-color: var(--theme-body-background-color);
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background-color: #003bdf;
+    height: 130px;
+    border-radius: 5px;
+}
+
+
+
+.nav-list {
+    position: absolute;
+    right: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    transition: 1s;
+    padding: 15px 20px;
+}
+
+
+.nav-list li a:hover {
+    background-color: #fafafa;
+    color: rgb(1, 0, 85);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+main {
+    margin-bottom: 70px;
+}
+
+form {
+    background-color: #005ed8;
+    padding: 30px;
+    width: 47%;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    resize: none;
+}
+
+.label-radio {
+    display: inline-block;
+}
+
+label {
+    color: #CCCCCC;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+iframe {
+    width: 45%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+
+.img-main {
+    display: block;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+
+video {
+    width: 30% ;
+    height: 30%;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(360px, 1fr));
+    grid-gap: 1rem;
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.grid-item{
+    background: none;
+    border: none;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding: 1rem;
+    grid-gap: 0.5rem;
+  row-gap: 50px;
+}
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+footer {
+    position: relative;
+   
+}
+
+
+.foot{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #003bdf;
+    height: 150px;
+    color: white;
+    text-align: justify;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.links {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
